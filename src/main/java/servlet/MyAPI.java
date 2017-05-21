@@ -8,6 +8,6 @@ import javax.ws.rs.Path;
 public class MyAPI {
 	@GET
 	public String getHelloWorld() {
-		return "Hello World!!!!!";
+		return "Hello World!!!!! by Adrian Strzelczyk";
 	}
 }
