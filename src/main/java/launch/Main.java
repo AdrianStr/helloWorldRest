@@ -1,5 +1,4 @@
-package com.strzelczyk.helloworld.heroku;
-
+package launch;
 
 import java.io.File;
 import java.net.URISyntaxException;
@@ -13,6 +12,8 @@ import org.apache.catalina.startup.Tomcat;
 import org.apache.catalina.webresources.DirResourceSet;
 import org.apache.catalina.webresources.EmptyResourceSet;
 import org.apache.catalina.webresources.StandardRoot;
+import org.apache.tomcat.util.scan.Constants;
+import org.apache.tomcat.util.scan.StandardJarScanFilter;
 
 public class Main {
 
