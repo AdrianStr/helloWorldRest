@@ -1,5 +1,1 @@
-<html>
-<body>
-<h2>Hello Heroku!</h2>
-</body>
-</html>
+Just a test if application is running, please use only API for this application...
