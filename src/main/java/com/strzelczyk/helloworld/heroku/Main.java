@@ -7,7 +7,7 @@ public class Main {
   public static void main(String[] args) throws BootstrapException {
       PayaraMicro.getInstance()
                 .setHttpPort(Integer.parseInt(System.getenv("PORT")))
-                .addDeployment("DeployTarget.war")
+                .addDeployment("/helloWorldRestGit/target/helloWorldRestGit.war")
                 .bootStrap();
   }
 }

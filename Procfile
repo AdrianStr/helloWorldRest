@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -jar helloWorldRestGit/WEB-INF/lib//helloWorldRestGit/target/helloWorldRestGit/WEB-INF/lib/payara-micro-4.1.153.jar --port $PORT target/*.war 
+web: server/build/install/server/bin/server
