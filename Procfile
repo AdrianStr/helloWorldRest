@@ -1,1 +1,1 @@
-web:    java -jar lib/payara-micro-4.1.153.jar --deploy target//helloWorldRestGit/target/helloWorldRestGit.war --port $PORT  
+web:    java -jar helloWorldRestGit/WEB-INF/lib/payara-micro-4.1.153.jar --deploy target//helloWorldRestGit/target/helloWorldRestGit.war --port $PORT  
