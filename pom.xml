@@ -82,7 +82,7 @@
 					<assembleDirectory>target</assembleDirectory>
 					<programs>
 						<program>
-							<mainClass>launch.Main</mainClass>
+							<mainClass>com.strzelczyk.helloworld.heroku.Main</mainClass>
 							<name>webapp</name>
 						</program>
 					</programs>
