@@ -1,6 +1,7 @@
 target
 tomcat.8080
 tomcat.5000
+helloWorld
 
 # IntelliJ Idea project files
 .idea
